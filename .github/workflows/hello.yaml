@@ -2,7 +2,7 @@
 name: Hello World
 
 on:
-  push:                # trigger on every push to any branch
+  workflow_dispatch
 
 jobs:
   greet:

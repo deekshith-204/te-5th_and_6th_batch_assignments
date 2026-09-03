@@ -2,7 +2,8 @@
 name: Hello World
 
 on:
-  workflow_dispatch:
+  push:
+    
     
 
 jobs:

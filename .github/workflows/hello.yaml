@@ -2,7 +2,6 @@
 name: devops-dummy-pipeline
 
 on:
-  push:
   workflow_dispatch: 
 
 jobs:

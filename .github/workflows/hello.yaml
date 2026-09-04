@@ -1,7 +1,8 @@
 # .github/workflows/hello.yml
-name: Hello World
+name: devops-dummy-pipeline
 
 on:
+  push:
   workflow_dispatch: 
 
 jobs:
@@ -9,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print greeting
-        run: echo "Hello, GitHub Actions!"
+      - name: print pipeline name
+        run: echo "Hello, this is dummy pipeline! "github actions"
 
       - name: Show runner info
         run: |

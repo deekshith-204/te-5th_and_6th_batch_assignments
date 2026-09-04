@@ -2,6 +2,7 @@
 name: devops-dummy-pipeline
 
 on:
+  push:
   workflow_dispatch: 
 
 jobs:
@@ -10,7 +11,7 @@ jobs:
 
     steps:
       - name: print pipeline name
-        run: echo "Hello, this is dummy pipeline! "github actions"
+        run: echo "Hello, this is dummy pipeline! github actions"
 
       - name: Show runner info
         run: |
